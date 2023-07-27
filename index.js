@@ -30,9 +30,9 @@ function sumOfPositiveNumbers(inputArray) {
   }
   
  
-  const exampleInput = [2, -5, 10, -3, 7];
-  const result = sumOfPositiveNumbers(exampleInput);
-  console.log(result); // Output: 19
+  const inputArray = [2,-5, 10,-3,14,16,11];
+  const result = sumOfPositiveNumbers(inputArray);
+  console.log(result); 
   */
 //  3. Random Password
 /*
@@ -54,7 +54,7 @@ function generateRandomPassword(length) {
   }
   
   
-  const passwordLength = 12; 
+  const passwordLength = 16; 
   const randomPassword = generateRandomPassword(passwordLength);
   console.log(randomPassword);
   */
@@ -80,11 +80,11 @@ function calculate(num1, num2, operator) {
 }
 
 
-const num1 = 10;
-const num2 = 5;
-const operator = '+';
+const num1 = 20;
+const num2 = 50;
+const operator = '-';
 const result = calculate(num1, num2, operator);
-console.log(`Result: ${result}`);
+console.log(result);
 */
 // 5. Roman numerical to integer
 /*
@@ -144,7 +144,7 @@ function findMostFrequentElement(arr) {
 }
 
 
-const inputArray = [9, 5, 2, 5, 9, 9, 1, 4, 5];
+const inputArray = [9,2, 5, 2, 5, 9, 9, 1, 4, 5];
 const result = findMostFrequentElement(inputArray);
 console.log(result); 
 */
@@ -172,7 +172,7 @@ function findSecondSmallest(arr) {
 }
 
 
-const inputArray = [3, 5,  5, 3, 3, 1, 4, 5];
+const inputArray = [11,15,5, 3, 3, 1, 4, 5];
 const result = findSecondSmallest(inputArray);
 console.log(result); 
 
